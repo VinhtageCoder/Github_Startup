@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/b3c9ce644d.js" crossorigin="anonymous"></script>
+    <title>Vinh Dinh Portfolio</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(function(){
+
+            $(".toggleNav").on("click",function(){
+
+                if($(".navBarItem").hasClass("active")){
+                    $(".navBarItem").removeClass("active"); 
+                      
+                }else{
+                    $(".navBarItem").addClass("active"); 
+                }
+            })
+        }); 
+    </script>
+
+    <script>
+        $(function(){ 
+            $(".toggleOnMonochrome").on("click",function(){
+                if ( $("*").hasClass("active")){ 
+                    $("*").removeClass("active");
+                    document.getElementById("monochrome").innerHTML = "Turn On Monochrome";
+                }else{
+                    $("*").addClass("active");
+                    document.getElementById("monochrome").innerHTML = "Turn Off Monochrome";
+                } 
+            }) 
+        }); 
+    </script>
+
+
+</head>
+<body >
+    <section id= "site_wrap" role="main">
+        <section class="accessibility"> 
+            <a href="#" id="monochrome" class="monochrome toggleOnMonochrome">Turn On Monochrome</a>
+             
+        </section>
+        <header class="header">
+             
+                <img id="icon" src="images/slime transparent.gif" class="logo" alt="logo"> 
+                <h1>Vinh Dinh</h1>
+             
+            <nav>
+                <ul class="list">
+                    <li class="navBarItem"><a  href="#">Home</a></li>
+                    <li class="navBarItem"><a href="#">About</a></li>
+                    <li class="navBarItem"><a href="#">Portfolio</a></li>
+                    <li class="navBarItem"><a href="#">Vinh27@Live.ca</a></li> 
+                    <li class="toggleNav"><span class="hamburger"></span></li> 
+                </ul>
+            </nav>
+        </header> 
+
+        <section class="feature-header"> </section> 
+        <section class="feature-main">
+            <h1>Hey World, Vinh Here</h1>
+            <p>I'm currently attending Conestoga College as a third-year IT/ID student. My interests in computers and design drew me towards this flexible path of education. I was able to use my retail experience to work with others in a team environment constructively. I find the courses very engaging and applicable to real-world applications. I believe that communication and patients are key to success.</p> 
+            <a href="#" class="contact">Contact Me</a>
+        </section>
+
+        <section class="feature-profile">
+            <img class="profile" src="images/Profile.jpg" alt="Profile">
+        </section>
+
+        <section class="content"> 
+            <h1>Portfolio</h1>
+            <p>Some photoshop/illustrator I've done in the last year.</p>
+       
+            <div>
+                <img class="profile" src="images/1.png" alt="Project 1"> 
+                <img class="profile" src="images/2.png" alt="Project 2">
+                <img class="profile" src="images/3.png" alt="Project 3">
+                <img class="profile" src="images/4.png" alt="Project 4">
+            </div>
+        </section>
+
+        <footer aria-hidden="true" class="footer">
+            <p>
+                <a href="https://www.linkedin.com/in/vqdinh/" target="_blank" 
+                class="fab fa-linkedin fa-5x" aria-hidden="false"  tabindex="-1"></a>
+
+                <a href="#" target="_blank" 
+                class="fab fa-facebook-square fa-5x"  aria-hidden="false"  tabindex="-1"></a> 
+
+                <a href="https://twitter.com/VQDinh"  target="_blank" 
+                class="fab fa-twitter-square fa-5x" aria-hidden="false"  tabindex="-1"></a>
+
+                <a href="#" target="_blank" 
+                class="far fa-envelope fa-5x"  aria-hidden="false"  tabindex="-1"></a>
+            </p>
+
+            <p>
+                &copy; Copyright - 2021 - Feel free to contact me from any icons above :)
+            </p>
+        </footer>
+    </section>
+</body>
+</html>

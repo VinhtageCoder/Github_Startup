@@ -10,6 +10,6 @@ This is a portfolio page describing myself and a few art works i did in photosho
 
 ---
 
-##License & copyright
+## License & copyright
 
 © Vinh Dinh under the [MIT Licence] (LICENSE).

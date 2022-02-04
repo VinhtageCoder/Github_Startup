@@ -22,7 +22,3 @@ MIT Licence allows anyone to use this code as long as they credit the owner.
 
 It's short and simple compared to the other licences.
 
----
-
-## Wiki Question
-to use a private repository rather than a public one

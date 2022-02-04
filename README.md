@@ -1,7 +1,7 @@
 # Github_Startup
 
 This is a portfolio page describing myself and a few art works i did in photoshop.
-To view the page [click here](https://vinhtagecoder.github.io/Github_Startup/)
+To view the page [click here](https://vinhtagecoder.github.io/Github_Startup/).
 
 ---
 
